@@ -65,8 +65,3 @@ Sensor inputs include `/lidar/scan` and the center/left/right proximity topics c
 
 This project demonstrates simulated multi-sensor occupancy-grid fusion. It is not, by itself, a complete SLAM system or a Nav2 autonomous-navigation/obstacle-avoidance stack.
 
-**Runtime status:** The project owner reports that the Gazebo runtime works without faults. This repository upload does not independently re-run that simulation. The implementation is being published as supplied; follow-up improvements should be validated against the working runtime before changing sensor or bridge behavior.
-
-## Notes for further development
-
-Potential next steps include documenting the exact tested ROS 2/Gazebo versions and launch procedure, adding a reproducible RViz configuration, unit tests for ray tracing and occupancy updates, and evaluating map-frame behavior during robot motion. Verify Gazebo-to-ROS message types against the actual running topics before modifying bridge configuration.
