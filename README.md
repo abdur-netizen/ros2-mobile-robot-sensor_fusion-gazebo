@@ -6,6 +6,11 @@ A ROS 2 and Gazebo simulation workspace for local occupancy-grid fusion using a 
 
 The `sensor_fusion_bot` package launches a differential-drive robot in a Gazebo test world. A sensor-fusion node consumes the LiDAR and proximity-sensor topics, uses TF2 to account for sensor poses, performs ray-based occupancy updates with Bayesian log-odds, and publishes a fused local occupancy grid and a derived scan.
 
+
+<img width="1366" height="768" alt="Screenshot from 2026-11-22 12-12-30" src="https://github.com/user-attachments/assets/d60eb07f-1d32-4b6f-b018-e8e52aebfa77" />
+<img width="1366" height="768" alt="Screenshot from 2026-11-22 12-16-40" src="https://github.com/user-attachments/assets/cb48d9e3-c372-446f-b718-d4b154dda6a8" />
+
+
 ### Main components
 
 - `urdf/fusion_bot.urdf` — robot model and simulated sensors.
